@@ -1,0 +1,90 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - how's it going
+    - what's up
+    - yo
+    - nice to meet you
+    - how are you
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - take care
+    - i've got to go
+    - see ya
+    - have a good one
+    - talk to you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - make sense
+    - got it
+    - it's clear
+    - exactly
+    - perfect
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - absolutely not
+    - no chance
+    - I think not
+    - I suppose not
+    - hardly
+    - nothing like that
+
+- intent: confused
+  examples: |
+    - I don't understand
+    - I don't know
+    - I'm not entirely clear on what to do to navigate through the tool.
+    - I am not sure
+    - What do you mean?
+    - I not clear about that
+    - I don't get what you mean
+    - I don't get it
+    - I am confused
+    - It is confusing
+    - can't understand
+    - dosen't make sense
+    - can you explain again
+    - I don't follow you
+    - can you repeat that
